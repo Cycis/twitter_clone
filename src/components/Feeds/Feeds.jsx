@@ -1,6 +1,6 @@
 import { SparklesIcon } from '@heroicons/react/solid'
 import React from 'react'
-import Posts from '../../Posts/Posts'
+import Posts from '../Posts/Posts'
 import Input from '../Input/Input'
 
 const Feeds = () => {
@@ -24,6 +24,3 @@ const Feeds = () => {
 }
 
 export default Feeds
-
-
-// relative flex - grow border - x - [1px] border - [#2F3336] pt - 4
