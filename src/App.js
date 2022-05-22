@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import Feeds from "./components/Feeds/Feeds";
+import Sidebar from "./components/Sidebar/Sidebar";
+import Widget from './components/Widget/Widget'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main className="text-white min-h-screen flex w-full max-w-[1500px] mx-auto">
+      <Sidebar />
+      <Feeds />
+      <Widget />
+    </main>
   );
 }
 
 export default App;
+
