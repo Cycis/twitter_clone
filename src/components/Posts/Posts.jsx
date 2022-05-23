@@ -17,11 +17,11 @@ const Posts = ({ image }) => {
                </div>
                <div className='mt-2'>
                // eslint-disable-next-line
-                  <p className='text-xl text-[#E7E9EA]'>Wishing everyone a great Sunday 😃 <a href="#" className='text-[#7A67FF] hover:underline'>#Feed</a></p>
+                  <p className='text-xl text-[#E7E9EA]'>Wishing everyone a great Sunday 😃 <span href="#" className='text-[#7A67FF] hover:underline'>#Feed</span></p>
                </div>
             </div>
             <div className='absolute -top-2 right-0 w-10 h-10 p-2 hover:bg-cyan-900 hover:bg-opacity-[0.9] transition duration-300 rounded-full'>
-               <DotsHorizontalIcon className='text-white text-gray-400' />
+               <DotsHorizontalIcon className=' text-gray-400' />
             </div>
          </div>
          {image && (
@@ -32,25 +32,25 @@ const Posts = ({ image }) => {
          <div className=' flex items-center justify-between w-[450px] p-2 ml-[60px] mt-4'>
             <div className='flex items-center space-x-2 hover:text-cyan-700'>
                <div className='w-10 h-10 p-2 hover:bg-cyan-700 hover:bg-opacity-[0.5] transition duration-300 rounded-full'>
-                  <ChatIcon className='text-white text-gray-400' />
+                  <ChatIcon className=' text-gray-400' />
                </div>
                <p>22</p>
             </div>
             <div className='flex items-center space-x-2 hover:text-green-700'>
                <div className='w-10 h-10 p-2 hover:bg-green-700 hover:bg-opacity-[0.5] transition duration-300 rounded-full'>
-                  <SwitchHorizontalIcon className='text-white text-gray-400' />
+                  <SwitchHorizontalIcon className='text-gray-400' />
                </div>
                <p>785</p>
             </div>
             <div className='flex items-center space-x-2 hover:text-pink-700'>
                <div className='w-10 h-10 p-2 hover:bg-pink-700 hover:bg-opacity-[0.5] transition duration-300 rounded-full'>
-                  <HeartIcon className='text-white text-gray-400' />
+                  <HeartIcon className='text-gray-400' />
                </div>
                <p>22</p>
             </div>
             <div className='flex items-center space-x-2 hover:text-cyan-900'>
                <div className='w-10 h-10 p-2 hover:bg-cyan-900 hover:bg-opacity-[0.5] transition duration-300 rounded-full'>
-                  <UploadIcon className='text-white text-gray-400' />
+                  <UploadIcon className='text-gray-400' />
                </div>
                <p>2</p>
             </div>
