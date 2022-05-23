@@ -16,7 +16,7 @@ const Posts = ({ image }) => {
                   </div>
                </div>
                <div className='mt-2'>
-               // eslint-disable-next-line
+                  {/*  eslint-disable-next-line */}
                   <p className='text-xl text-[#E7E9EA]'>Wishing everyone a great Sunday 😃 <span href="#" className='text-[#7A67FF] hover:underline'>#Feed</span></p>
                </div>
             </div>
